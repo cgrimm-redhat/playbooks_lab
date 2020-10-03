@@ -4,6 +4,8 @@ pihole
 rhel8.lab
 rhel8target.lab
 tower.lab
+sat.lab
+rhel7.lab
 
 [kubecluster]
 kube[01:06].lab
