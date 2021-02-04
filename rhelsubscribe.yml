@@ -1,0 +1,15 @@
+---
+- name: Subscribe a RHEL System 
+  hosts: rhel
+  become: yes
+  vars_files:
+    - subvars.yml
+  tasks:
+    - name: Register with RHN Account
+      redhat_subscription:
+        state: present
+        username: "{{ rhnusername }}"
+        password: "{{ rhnpassword }}"
+        auto_attach: true
+
+      
