@@ -7,9 +7,10 @@
   tasks:
     - name: Register with RHN Account
       redhat_subscription:
-        state: absent
+        state: present
         username: "{{ rhnusername }}"
         password: "{{ rhnpassword }}"
+        force_register: true
         auto_attach: true
 
       
