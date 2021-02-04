@@ -10,7 +10,6 @@
         state: present
         username: "{{ rhnusername }}"
         password: "{{ rhnpassword }}"
-        force_register: true
         auto_attach: true
 
       
