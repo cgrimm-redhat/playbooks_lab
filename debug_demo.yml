@@ -16,7 +16,10 @@
       debug:
         var: yum_results
       when: debug == true
-
-
+    
+    - name: debug based on variable for print
+      debug:
+        msg: "Debugging has been disabled. The debug variable is set to {{ debug }}"
+      when: debug == false
 
       
