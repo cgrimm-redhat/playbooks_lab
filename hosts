@@ -1,5 +1,8 @@
 pihole
 
+[nts]
+192.168.2.139
+
 [lab]
 rhel8.lab
 rhel8target.lab
