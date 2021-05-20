@@ -12,8 +12,4 @@
         password: "{{ rhnpassword }}"
         auto_attach: true
     
-    - name: Update System Packages      
-      package:
-        name: "*"
-        state: latest
       
