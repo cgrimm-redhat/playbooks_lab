@@ -1,6 +1,6 @@
 ---
 - name: Subscribe a RHEL System 
-  hosts: rhel
+  hosts: all
   become: yes
   vars_files:
     - subvars.yml
